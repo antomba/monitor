@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page with Sidebar and Separate Content</title>
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="pages/it.html" target="content-frame">IT</a></li>
+        </ul>
+    </nav>
+
+    <div class="content-container">
+        <!-- Default page is it.html loaded into iframe -->
+        <iframe src="pages/it.html" name="content-frame"></iframe>
+    </div>
+
+</body>
+
+</html>
